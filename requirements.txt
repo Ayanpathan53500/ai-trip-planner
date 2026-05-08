@@ -1,0 +1,10 @@
+langchain
+langchain_core
+langchain_community
+langgraph
+langchain-google-genai
+tavily-python
+python-dotenv
+requests
+streamlit
+streamlit-folium folium
