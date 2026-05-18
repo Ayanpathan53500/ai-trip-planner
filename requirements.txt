@@ -7,4 +7,5 @@ tavily-python
 python-dotenv
 requests
 streamlit
-streamlit-folium folium
+streamlit-folium 
+reportlab
