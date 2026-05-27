@@ -261,7 +261,7 @@ def generate_plan(source, destination, days, budget_min, budget_max, travel_mode
 # PAGE CONFIG
 # ─────────────────────────────────────────
 
-st.set_page_config(page_title="Voyagr — AI Travel Planner", page_icon="✈️", layout="wide")
+st.set_page_config(page_title="TripMind — AI Travel Planner", page_icon="✈️", layout="wide")
 
 st.markdown("""
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
@@ -496,7 +496,7 @@ div[data-testid="stWarning"]{border-radius:12px!important;border-left:4px solid 
 
 st.markdown("""
 <div class="v-nav">
-  <div class="v-logo">✈ Voyag<span>r</span></div>
+  <div class="v-logo">✈ TripMind<span>r</span></div>
   <div class="v-nav-links">
     <a href="#" class="hide-tab">Explore</a>
     <a href="#" class="hide-tab">Hotels</a>
@@ -522,7 +522,7 @@ st.markdown("""
   <div class="v-hero-text">
     <div class="v-hero-tag">AI-Powered Travel Planning</div>
     <h1>Your next <em>adventure</em>,<br>perfectly planned.</h1>
-    <p>From itinerary to hotels — Voyagr builds your dream trip in seconds using AI.</p>
+    <p>From itinerary to hotels — TripMind builds your dream trip in seconds using AI.</p>
   </div>
   <div class="v-dots">
     <div class="v-dot d1"></div>
@@ -760,10 +760,10 @@ if generate and source and destination:
 
 st.markdown("""
 <div class="v-footer">
-  <strong>Voyagr</strong> — AI Travel Planner &nbsp;·&nbsp;
+  <strong>TripMind</strong> — AI Travel Planner &nbsp;·&nbsp;
   Built with Gemini AI &nbsp;·&nbsp; Hotel data via Booking.com &nbsp;·&nbsp;
   Maps by Geoapify &nbsp;·&nbsp; Bot powered by make.com<br><br>
-  © 2026 Voyagr · All rights reserved
+  © 2026 TripMind · All rights reserved
 </div>
 """, unsafe_allow_html=True)
 
@@ -948,7 +948,7 @@ body{{background:transparent;font-family:'DM Sans',system-ui,sans-serif;}}
   const wrap = parent.document.createElement('div');
   wrap.id = 'voy-root';
   wrap.innerHTML = `
-    <button id="voy-fab" onclick="voyToggle()" title="Chat with Voyagr AI">
+    <button id="voy-fab" onclick="voyToggle()" title="Chat with TripMind AI">
       ✈️<span id="voy-badge"></span>
     </button>
     <div id="voy-chatwin">
@@ -956,7 +956,7 @@ body{{background:transparent;font-family:'DM Sans',system-ui,sans-serif;}}
         <div class="vt-l">
           <div class="vt-av">✈️</div>
           <div>
-            <div class="vt-name">Voyagr AI</div>
+            <div class="vt-name">TripMind AI</div>
             <div class="vt-st">Online · Travel Assistant</div>
           </div>
         </div>
@@ -1073,7 +1073,7 @@ body{{background:transparent;font-family:'DM Sans',system-ui,sans-serif;}}
         ? '<div class="vi hu">👤</div>'
         : '<div class="vi ai">✈️</div>';
       const bc = m.r==='u'?'u':'ai';
-      const lb = m.r==='u'?'You':'Voyagr AI';
+      const lb = m.r==='u'?'You':'TripMind AI';
       row.innerHTML=`${{ic}}<div><div class="vb ${{bc}}">${{m.t}}</div><div class="vbt">${{lb}} · ${{m.ts}}</div></div>`;
       if(typEl) box.insertBefore(row,typEl);
       else box.appendChild(row);
@@ -1109,3 +1109,5 @@ body{{background:transparent;font-family:'DM Sans',system-ui,sans-serif;}}
 <body></body>
 </html>
 """, height=0, scrolling=False)
+
+
